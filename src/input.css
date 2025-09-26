@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import 'remixicon/fonts/remixicon.css';
+
+
+@layer components{
+	.btn-costum-1{
+		@apply px-7 py-2 text-stone-100 font-bold bg-[#B87C4C] rounded-4xl outline-2 outline-[#B87C4C] transition-colors ease-in-out duration-300;
+	}
+}
+
+@layer base{
+   body{
+      @apply bg-white text-stone-800;
+   }
+}
