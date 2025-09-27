@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="col-span-12 lg:col-span-5 py-14 lg:py-24">
                     <div class="h-full max-w-xl bg-white shadow-xl  rounded-xl p-6 lg:p-14">
                         <div class="w-full max-w-xl mx-auto">
-                            <h2 class="text-stone-800 text-2xl font-bold mb-3">Welcome to Ahuy WO</h2>
+                            <h2 class="text-stone-800 text-2xl font-bold mb-3">Login WO.pik</h2>
                             <?php if ($error): ?>
                                 <p class="text-red-500 mb-4"><?php echo htmlspecialchars($error); ?></p>
                             <?php endif; ?>
