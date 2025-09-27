@@ -1,4 +1,8 @@
-<section class="ezy__copyright9_Sn8BpAxZ mx-auto px-14 w-full py-12 bg-[#A8BBA3]">
+<?php
+require __DIR__ . '/../config/settings.php';
+?>
+
+<section class="ezy__copyright9_Sn8BpAxZ mx-auto px-14 w-full py-12 bg-white">
    <div class="px-4">
       <div class="grid grid-cols-12">
             <div class="col-span-12 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4">
@@ -16,16 +20,13 @@
                   </p>
                   <ul class="flex gap-4 justify-content-center">
                         <li>
-                           <a href="" class="text-xl transition duration-300"><i class="ri-instagram-line"></i></i></a>
+                           <a href="<?php echo htmlspecialchars($settings['instagram_url']); ?>" class="text-xl transition duration-300"><i class="ri-instagram-line"></i></i></a>
                         </li>
                         <li>
-                           <a href="" class="text-xl transition duration-300"><i class="ri-youtube-line"></i></a>
+                           <a href="<?php echo htmlspecialchars($settings['youtube_url']); ?>" class="text-xl transition duration-300"><i class="ri-youtube-line"></i></a>
                         </li>
                         <li>
-                           <a href="" class="text-xl transition duration-300"><i class="ri-phone-line"></i></a>
-                        </li>
-                        <li>
-                           <a href="" class="text-xl transition duration-300"><i class="ri-mail-line"></i></a>
+                           <a href="<?php echo htmlspecialchars($settings['email1']); ?>" class="text-xl transition duration-300"><i class="ri-mail-line"></i></a>
                         </li>
                   </ul>
                </div>

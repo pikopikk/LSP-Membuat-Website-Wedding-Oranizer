@@ -1,4 +1,4 @@
-<section
+<section id="features"
    class="ezy__featured28_Z013NAND mx-auto px-14 w-full py-14 md:py-24 bg-white  text-stone-100  relative overflow-hidden"
    >
    <div
@@ -10,7 +10,9 @@
       >
       <div class="w-full md:w-1/2 xl:pr-12 text-center lg:text-start my-12">
          <h2 class="text-2xl leading-none md:text-[45px] font-bold mb-6 text-stone-800">
-            WO.pik Wedding Organizer – Jayapura
+            WO.pik
+            <br>
+            Wedding Organizer – Tasikmalaya
          </h2>
          <div class="flex flex-col gap-2">
             <h4 class="text-lg md:text-[22px] leading-normal font-bold text-stone-800">
@@ -25,9 +27,9 @@
          </div>
          <div class="mt-12">
             <a
-            href=""
+            href="#catalog"
             class="btn-costum-1 btn-costum-1 outline-[#B87C4C] focus:outline-2 hover:bg-stone-100 hover:cursor-pointer hover:text-[#B87C4C] focus:outline-[#568F87]"
-            >Jelajahi Lebih Lanjut <i class="ri-corner-right-down-line"></i></a>
+            >Jelajahi Lebih Lanjut</a>
          </div>
       </div>
       <div class="w-full md:w-1/2">

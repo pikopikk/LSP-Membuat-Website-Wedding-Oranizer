@@ -16,7 +16,7 @@
 
          </h2>
          <div class="mt-4">
-            <a id="hero-btn" href="shop now" class="el-zoom-in btn-costum-1 outline-[#B87C4C] focus:outline-2 hover:bg-stone-100 hover:cursor-pointer hover:text-[#B87C4C] focus:outline-[#568F87]">
+            <a id="hero-btn" href="#features" class="el-zoom-in btn-costum-1 outline-[#B87C4C] focus:outline-2 hover:bg-stone-100 hover:cursor-pointer hover:text-[#B87C4C] focus:outline-[#568F87]">
                Rencanakan Pernikahan Anda
             </a>
          </div>

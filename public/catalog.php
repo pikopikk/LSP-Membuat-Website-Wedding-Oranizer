@@ -1,27 +1,18 @@
-<?php
-session_start();
-if (isset($_SESSION['flash_message'])) {
-    echo "<div class='bg-green-100 text-green-700 p-4 mb-6 rounded'>{$_SESSION['flash_message']}</div>";
-    unset($_SESSION['flash_message']); // hapus agar hanya muncul sekali
-}
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>WO.pik</title>
+   <title>Document</title>
    <link rel="stylesheet" href="./css/styles.css">
    <link href="../node_modules/remixicon/fonts/remixicon.css" rel="stylesheet">
    <link rel="icon" href="img" type="image/png">
 </head>
 <body>
    <?php include __DIR__ . '/../src/php/includes/header.php' ?>
-   <?php include __DIR__ . '/../src/views/partials/hero-section.php' ?>
-   <?php include __DIR__ . '/../src/views/partials/features.php' ?>
+
    <?php include __DIR__ . '/../src/views/partials/catalog.php' ?>
+
    <?php include __DIR__ . '/../src/php/includes/footer.php' ?>
 </body>
 </html>
